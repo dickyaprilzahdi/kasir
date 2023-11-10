@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import NavbarComponents from './components/NavbarComponents';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <NavbarComponents />
+        <div className="my-4">
+          <h1>Dicky April Zahdi</h1>
+          <p><strong>FrontEnd Web</strong></p>
+          <hr />
+          <ul>
+            <li><code>PAKET: npx create-react-app kasir</code></li>
+            <li><code>CSS: npm install react-bootstrap bootstrap</code></li>
+            <li><code>NOTIF: npm install sweetalert --save</code></li>
+            <li><code>API: npm install axios</code></li>
+            <li><code>JSON Server: npm install -g json-server</code></li>
+          </ul>
+        </div>
+      </div>
   );
 }
 
