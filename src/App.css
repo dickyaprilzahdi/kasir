@@ -12,6 +12,11 @@
   background-color: #379b4d;
 }
 
+.category-aktif {
+  background-color: #379b4d;
+  color: white;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
